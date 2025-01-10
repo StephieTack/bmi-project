@@ -35,8 +35,8 @@ const App: React.FC = () => {
     if (
       !enteredHeight ||
       !enteredWeight ||
-      +enteredWeight <= 0 ||
-      +enteredHeight <= 0
+      +enteredHeight <= 0 ||
+      +enteredWeight <= 0
     ) {
       setError("Please enter valid non-negative numbers");
       return;
